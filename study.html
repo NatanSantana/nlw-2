@@ -21,7 +21,6 @@
             </a>
             <img src="/images/logo.svg" alt="Proffy">
         </div>
-        </header>
 
         <div class="header-content">
             <strong>Esses são os proffys disponíveis</strong>
@@ -29,7 +28,7 @@
                 <div class="select-block">
                 <label for="subject">Matéria</label>
                 <select name="subject" id="subject"> <!--Select abre opções em formato lista-->
-                    <option value="" disabled="" hidden="">Selecione
+                    <option value="" disabled="" hidden="">Selecione uma opção</option>
                     <option value="1">Artes</option>
                     <option value="2">Biologia</option>
                     <option value="3">Filosofia</option>
@@ -42,10 +41,26 @@
                     <option value="10">Química</option>
                 </select>
                 </div>
-
+                <div class="select-block">
+                    <label for="weekday">Dia da semana</label>
+                    <select name="weekday" id="weekday">
+                        <option value="" disabled="" hidden="">Selecione uma opção</option>
+                        <option value="0">Domingo</option>
+                        <option value="1">Segunda-feira</option>
+                        <option value="2">Terça-feira</option>
+                        <option value="3">Quarta-feira</option>
+                        <option value="4">Quinta-feira</option>
+                        <option value="5">Sexta-feira</option>
+                        <option value="6">Sábado</option>
+                    </select>
+                </div>
+                <div class="input-block">
+                    <label for="time">Hora (De 0 até 24)</label>
+                    <input name="time" id="time" type="number" min="0" max="24">
+                </div>
             </form>
         </div>
-
+    </header>
     </div>
 
 </body>
