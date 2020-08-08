@@ -3,46 +3,6 @@
     height: 100vh;
 }
 
-.page-header { /* Altera cor de fundo e ordem de cada elemento */
-    background: var(--color-primary); 
-    display: flex;
-    flex-direction: column;
-}
-
-.page-header .top-bar-container { /* Alterações na seta de voltar */
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1.6rem 0;
-}
-
-.page-header .top-bar-container a { /* configurações do link da seta */
-    height: 3.2rem;
-    transition: opacity 0.2s;
-}
-
-.page-header .top-bar-container a:hover { /* Quando o mouse passar por cima */
-    opacity: 0.6;
-}
-
-.page-header .top-bar-container img { /* Configurações da imagem da header */
-    height: 1.6rem;
-}
-
-.page-header .header-content {
-    width: 90%;
-    margin: 3.2rem auto;
-    position: relative;
-}
-
-.page-header .header-content strong{ /* Altera o estilo do título */
-    font: 700 3.6rem Archivo;
-    line-height: 4.2rem; /* Altura da linha do texto */
-    color: var(--color-title-in-primary);
-}
-
 #search-teachers { /* Espaçamento do Form */
     margin-top: 3.2rem;
 }
